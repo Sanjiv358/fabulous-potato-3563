@@ -8,9 +8,9 @@ public class Demo {
 		
 	Connection c=	DBUTILL.provideConnection();
 	if(c!=null) {
-		System.out.println("conected");
+		System.out.println("Connected");
 	}else {
-		System.out.println("not");
+		System.out.println("Not Connected");
 	}
 	}
 
